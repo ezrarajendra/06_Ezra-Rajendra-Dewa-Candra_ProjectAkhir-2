@@ -1,0 +1,52 @@
+.inputform{
+    display: grid;
+    align-items: space-between;
+    justify-content:center;
+    margin: auto;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    display: block;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+input[type="submit"]:hover{
+    background-color: #ffd700;
+    transform: scale(1.05);
+}
+input[type="text"],
+input[type="number"],
+input[type="file"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    display: block;
+    box-sizing: border-box;
+}
+input::placeholder {
+    color: #eee;
+    font-style: italic;
+}
+fieldset{
+    border: none;
+    margin: auto;
+    padding: 20px;
+    max-width: 400px;
+}
